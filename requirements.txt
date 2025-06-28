@@ -1,0 +1,14 @@
+# Core dependencies for ETL and data transformation
+pandas==2.2.2            # For loading, transforming, and exporting CSV data
+python-dotenv==1.0.1     # For securely loading environment variables from a .env file
+
+# MySQL database connectivity
+mysql-connector-python==8.4.0   # To connect Python to MySQL server for loading normalized data
+
+# Optional: Enable logging with extended features (logging is built-in, but for extensions or future proofing)
+# loguru==0.7.2           # If switching to more advanced logging (not used in current script)
+
+# Notes:
+# - Versions pinned to latest stable as of June 2025.
+# - Avoided unnecessary libraries (e.g., sqlalchemy, numpy) since they’re not used in your current script.
+# - Ensure your MySQL server version supports this connector.
