@@ -77,6 +77,7 @@ Run Analysis
 python scripts/analyze.py
 
 ## 🧩 Database Schema
+<img width="1266" alt="Screenshot 2025-06-28 at 9 58 01 PM" src="https://github.com/user-attachments/assets/1b0e13da-9dfe-458f-9453-403c4e69da93" />
 
 1. property (Primary table)
 Primary Key: id
